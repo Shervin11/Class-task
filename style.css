@@ -1,0 +1,128 @@
+* {
+    margin: 0%;
+}
+
+.btnAdd {
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    background-color: rgb(53, 53, 151);
+}
+
+.btnEdit,
+.btndel,
+.btnCheck {
+    background-color: #9487D9;
+    border: none;
+    color: white;
+    width: 131px;
+    height: 38px;
+    font-size: 20px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnCheck {
+    width: 91px;
+    font-size: 20px;
+    background-color: rgb(53, 53, 151);
+}
+
+.btndel {
+    background-color: #D97961;
+}
+
+.AddModal,
+.EditModal,
+.InfoModal {
+    margin: auto;
+    border: none;
+    border-radius: 15px;
+    width: 700px;
+    height: 500px;
+}
+
+.InfoDesc {
+    word-wrap: break-word;
+}
+
+.InfoAva {
+    width: 200px;
+}
+
+.InfoModal {
+    text-align: center;
+    width: 400px;
+    height: 300px;
+}
+
+.container {
+    width: 362px;
+    height: auto;
+    background-color: #f8f8f8;
+    border-radius: 39px;
+    line-height: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.search,
+.AddName,
+.AddAva,
+.AddTitle,
+.AddDesc,
+.EditAva,
+.EditName,
+.EditTitle,
+.EditDesc {
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.AddName,
+.AddAva,
+.AddDesc,
+.AddTitle,
+.EditName,
+.EditAva,
+.EditDesc,
+.EditTitle {
+    width: 650px;
+    margin-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 20px;
+    gap: 20px;
+}
+
+.SelectStatus {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 0px 5px;
+    font-size: 18px;
+}

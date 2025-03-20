@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <article class="head">
+        <aside>
+            <select class="SelectStatus">
+                <option value="all">All</option>
+                <option value="true">Active</option>
+                <option value="false">Inactive</option>
+            </select>
+            <input type="text" class="search" placeholder="...search">
+        </aside>
+        <button class="btnAdd">Create new user</button>
+    </article>
+    <dialog class="AddModal">
+        <form class="formAdd">
+            <label for="ava">Ava</label>
+            <input id="ava" type="text" class="AddAva" name="AddAva" placeholder="Avatar">
+            <label for="name">Name</label>
+            <input id="name" type="text" class="AddName" name="AddName" placeholder="Name">
+            <label for="title">Title</label>
+            <input id="title" type="text" class="AddTitle" name="AddTitle" placeholder="Title">
+            <label for="desc">Description</label>
+            <input id="desc" type="text" class="AddDesc" name="AddDesc" placeholder="Desc">
+            <select name="AddStatus">
+                <option value="true">Active</option>
+                <option value="false">Inactive</option>
+            </select>
+            <button>Save</button>
+            <button type="button" class="addCancel">Cancel</button>
+        </form>
+    </dialog>
+    <dialog class="InfoModal">
+        <img class="InfoAva">
+        <h1 class="InfoName"></h1>
+        <p class="InfoTitle"></p>
+        <p class="InfoDesc"></p>
+        <select class="InfoStatus">
+            <option value="true">Active</option>
+            <option value="false">Inactive</option>
+        </select>
+        <button class="infoCancel">Cancel</button>
+    </dialog>
+    <dialog class="EditModal">
+        <form class="formEdit">
+            <label for="ava">Ava</label>
+            <input id="ava" type="text" class="EditAva" name="EditAva">
+            <label for="name">Name</label>
+            <input id="name" type="text" class="EditName" name="EditName">
+            <label for="title">Title</label>
+            <input id="title" type="text" class="EditTitle" name="EditTitle">
+            <label for="desc">Description</label>
+            <input id="desc" type="text" class="EditDesc" name="EditDesc">
+            <select name="EditStatus">
+                <option value="true">Active</option>
+                <option value="false" class="false">Inactive</option>
+            </select>
+            <button>Save</button>
+            <button type="button" class="editCancel">Cancel</button>
+        </form>
+    </dialog>
+    <div class="box"></div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
